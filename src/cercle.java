@@ -29,9 +29,6 @@ public class cercle {
         return (rayon.distance() * 2) * Math.PI;
     }
 
-    public double surface() {
-        return (rayon.distance() * rayon.distance()) * Math.PI;
-    }
 
     public cercle symetrie() {
 
