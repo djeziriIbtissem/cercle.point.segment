@@ -17,7 +17,23 @@ public class segment {
         this.B = b;
 
     }
+/*
+Exemple de constructeurs de segments 
 
+ public Segment(double bx, double by) {
+        this.a = new Point();
+        this.b = new Point(bx, by);
+    }
+
+    public Segment(double ax, double ay, double bx, double by) {
+        this.a = new Point(ax, ay);
+        this.b = new Point(bx, by);
+    }
+
+
+
+
+*/
     public point getA() {
         return A;
     }
@@ -34,7 +50,7 @@ public class segment {
 
     @Override
     public String toString() {
-        return "[" + A.toString() + B.toString() + "]";
+        return "[" + A + B + "]";//sans expliciter toString()
     }
 
     public segment symetrie() {
