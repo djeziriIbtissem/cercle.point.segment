@@ -5,9 +5,7 @@ public class cercle {
     private point centre;
     private segment rayon;
 
-    public cercle() {
-        this.centre = new point(0, 0);
-
+    
     }//le constructeur par defaut n'a aucun sens ici vu qu'un cercle a besoin d'un rayon dans ce cas le r=0
 
     public cercle(point centre, segment rayon) {
